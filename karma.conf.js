@@ -37,7 +37,6 @@ function listFiles() {
 }
 
 module.exports = function(config) {
-
   var configuration = {
     files: listFiles(),
 
@@ -61,8 +60,7 @@ module.exports = function(config) {
       'karma-phantomjs-shim',
       'karma-coverage',
       'karma-jasmine',
-      'karma-ng-html2js-preprocessor',
-      'karma-sourcemap-loader'
+      'karma-ng-html2js-preprocessor'
     ],
 
     coverageReporter: {

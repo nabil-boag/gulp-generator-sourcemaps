@@ -4,7 +4,6 @@ export interface ITecThing {
   url: string;
   description: string;
   logo: string;
-  foo: string;
 }
 
 export class WebDevTecService {
@@ -58,12 +57,17 @@ export class WebDevTecService {
         'url': 'http://www.typescriptlang.org/',
         'description': 'TypeScript, a typed superset of JavaScript that compiles to plain JavaScript.',
         'logo': 'typescript.png'
+      },
+      {
+        'title': 'Cucumber',
+        'url': 'https://cucumber.io/',
+        'description': 'Cucumber, the popular Behaviour-Driven Development tool, brought to your JavaScript stack.',
+        'logo': 'cucumber.png'
       }
     ];
 
     this.data = rawData.map((awesomeThing: ITecThing) => {
       awesomeThing.rank = Math.random();
-      awesomeThing.foo = 'bar';
       return awesomeThing;
     });
   }

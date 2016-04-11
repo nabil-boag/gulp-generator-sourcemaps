@@ -34,7 +34,7 @@ describe('directive malarkey', () => {
   it('should have isolate scope object with instanciate members', () => {
     expect(malarkeyController).toEqual(jasmine.any(Object));
 
-    expect(malarkeyController.contributors.length).toEqual(23);
+    expect(malarkeyController.contributors.length).toEqual(6);
   });
 
   it('should log a info', inject(($log: angular.ILogService) => {

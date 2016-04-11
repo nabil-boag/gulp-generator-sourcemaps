@@ -32,6 +32,10 @@
         "key": "noHtmlPrepro",
         "extension": "html"
       },
+      "protractorFramework": {
+        "key": "cucumber",
+        "extension": "feature"
+      },
       "bootstrapComponents": {
         "name": null,
         "version": null,
