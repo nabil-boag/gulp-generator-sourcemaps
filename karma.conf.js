@@ -60,6 +60,7 @@ module.exports = function(config) {
       'karma-phantomjs-shim',
       'karma-coverage',
       'karma-jasmine',
+      'karma-sourcemap-loader',
       'karma-ng-html2js-preprocessor'
     ],
 

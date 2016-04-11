@@ -29,6 +29,6 @@ describe('controllers', () => {
   }));
 
   it('should define more than 5 awesome things', () => {
-    expect(mainController.awesomeThings.length === 5).toBeTruthy();
+    expect(mainController.awesomeThings.length === 6).toBeTruthy();
   });
 });
